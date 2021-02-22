@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding: 0 0 70px 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.right {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.main-navigation {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.main-navigation__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-navigation__wrapper a {
+    display: block;
+    padding: 15px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.main-navigation__wrapper a:hover {
+    background-color: #aaa;
+    color: #000;
+}
+
+.main-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #434240;
+    background-size: 100%;
+    width: 100%;
+    min-height: 600px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.main-header__posttitle {
+    display: block;
+    color: #eee;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.main-header__title {
+    color: #eee;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#founding,
+#musicians,
+#makeup,
+#discography {
+    overflow: hidden;
+}
+
+#founding p,
+#musicians p,
+#makeup p,
+#discography p {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+}
+
+#founding p:last-child,
+#musicians p:last-child,
+#makeup p:last-child,
+#discography p:last-child {
+    margin: 0;
+}
+
+.theme-title {
+    display: block;
+    margin: 65px 0 40px 0;
+    color: #333;
+    font-size: 34px;
+    width: 100%;
+}
+
+#musicians h3 {
+    color: #333;
+    font-size: 22px;
+}
+
+.makeup__figures {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.makeup__figure {
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.makeup__figure span {
+    display: block;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+    color: #555;
+}
+
+.discography__list {
+    list-style: none;
+    padding: 0;
+}
+
+.discography__list li {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+
+.album-name {
+    font-weight: 600;
+}
+
+.main-footer {
+    background-color: black;
+    color: #444;
+    padding: 30px;
+    font-size: 14px;
+}
